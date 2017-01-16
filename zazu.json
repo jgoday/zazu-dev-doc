@@ -5,12 +5,17 @@
   "blocks": {
     "input": [
       {
-        "id": "qt block",
-        "type": "PrefixScript",
-        "args": "Required",
-        "prefix": "qt ",
-        "script": "src/search_qt.js",
-        "icon": "assets/qt.png",
+        "id": "online",
+        "type": "RootScript",
+        "script": "src/search_online.js",
+        "connections": [
+          "OpenDocumentation"
+        ]
+      },
+      {
+        "id": "local",
+        "type": "RootScript",
+        "script": "src/search_local.js",
         "connections": [
           "OpenDocumentation"
         ]

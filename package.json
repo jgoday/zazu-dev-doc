@@ -4,7 +4,6 @@
   "description": "Zazu plugin to search online documentation in some development languages.",
   "author": "Javier Goday",
   "homepage": "https://github.com/jgoday/zazu-dev-doc",
-  "main": "zazu.js",
   "scripts": {
     "test": "mocha ./test"
   },
@@ -16,6 +15,7 @@
   "dependencies": {
     "axios": "^0.15.3",
     "htmlparser2": "^3.9.2",
-    "jsonfile": "^2.4.0"
+    "jsonfile": "^2.4.0",
+    "sql.js": "^0.4.0"
   }
 }
